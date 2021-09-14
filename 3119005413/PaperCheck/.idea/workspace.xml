@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2093daf-c8f1-4ae9-86df-bbedddf99f7a" name="默认的" comment="" />
+    <list default="true" id="b2093daf-c8f1-4ae9-86df-bbedddf99f7a" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testDemo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,10 +48,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="应用程序.testDemo">
+  <component name="RunManager" selected="应用程序.Entry">
     <configuration name="DivideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DivideTest" />
       <module name="PaperCheck" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entry" />
+      <module name="PaperCheck" />
+      <option name="PROGRAM_PARAMETERS" value="D:\\测试文本2\\orig.txt D:\\测试文本2\\orig_0.8_del.txt D:\\测试文本2\\result.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,8 +71,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="应用程序.DivideTest" />
+      <item itemvalue="应用程序.Entry" />
+      <item itemvalue="应用程序.testDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Entry" />
         <item itemvalue="应用程序.testDemo" />
         <item itemvalue="应用程序.DivideTest" />
       </list>
@@ -81,7 +100,7 @@
       <workItem from="1631447206916" duration="1018000" />
       <workItem from="1631501264422" duration="3000" />
       <workItem from="1631540365713" duration="942000" />
-      <workItem from="1631597923572" duration="1848000" />
+      <workItem from="1631597923572" duration="3715000" />
     </task>
     <servers />
   </component>
@@ -101,33 +120,44 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631348702950">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631601577592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631348702950" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631601577592" />
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1631600942021">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631600942021" />
     <state x="440" y="99" key="#项目结构" timestamp="1631348460348">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1631348460348" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631412242777">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631601467471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1631412242777" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631412242777">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631601467471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1631412242777" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631412242777">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631601467471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1631412242777" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631412242777">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631601467471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1631412242777" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
+    <state width="680" height="1048" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1631601380943">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="680" height="1048" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1050@0.0.1920.1050" timestamp="1631601380943" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1631598013637">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1631598013637" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PaperCheck$Entry.ic" NAME="Entry Coverage Results" MODIFIED="1631600878848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
