@@ -17,7 +17,7 @@ public class Processor {
     *  index : 标记该分词来自于哪篇文章；0表示元文章，1表示比较文章
     * */
     public static Map<String, int[]> SentenceSegment(String sentence, int index){
-        
+
         JiebaSegmenter segmenter = new JiebaSegmenter();
         /*正则表达式除去文章中的标点符号、回车与换行*/
         sentence = sentence.replaceAll("[\\pP\\p{Punct}]","");
