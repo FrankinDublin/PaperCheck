@@ -1,6 +1,7 @@
 import com.huaban.analysis.jieba.JiebaSegmenter;
 import com.huaban.analysis.jieba.SegToken;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -11,6 +12,9 @@ public class Processor {
     *  int : 长度为2的数组，第一位储存该词组来自原文章的数量，第二位存储该词组来自比较文章的数量
     * */
     private static Map<String, int[]> wordsMap;
+    public Processor() {
+        wordsMap = new HashMap<>();
+    }
     /*
     *  将文章进行分词
     *  sentence : 转化为字符串的文章内容
@@ -45,5 +49,28 @@ public class Processor {
     *  根据分词结果计算余弦值
     *   map : 分词存储映射
     * */
-    public static float cosineCalculate(Map<String,int[]> map){ return 0; }
+    public static float cosineCalculate(Map<String,int[]> map){
+        /*分子*/
+        float numerator = 0;
+        /*两个平方和*/
+        float sumA = 0;
+        float sumB = 0;
+        for(String s:map.keySet()){
+            int[] tmpArr = map.get(s);
+            numerator+=tmpArr[0]*tmpArr[1];
+            sumA+=tmpArr[0]*tmpArr[0];
+            sumB+=tmpArr[1]*tmpArr[1];
+        }
+        float denominator= (float) (Math.sqrt(sumA)*Math.sqrt(sumB));
+        System.out.println("分子："+numerator);
+        System.out.println("分母："+denominator);
+        return numerator/denominator;
+    }
+
+    /*
+    * 一次比对之后，清空映射
+    * */
+    public void mapClear(){
+        wordsMap.clear();
+    }
 }
