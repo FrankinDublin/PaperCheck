@@ -2,7 +2,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+import Exception.TxtNotFoundException;
+import Exception.EmptyTxtException;
 public class IOHandler {
 
     /*
@@ -12,6 +13,11 @@ public class IOHandler {
     public static String textToString(String path){
         String str="";
         File file=new File(path);
+        if (!file.exists()) try {
+            throw new TxtNotFoundException(path+"路径下文件未找到");
+        } catch (TxtNotFoundException e) {
+            e.printStackTrace();
+        }
         try {
             FileInputStream in=new FileInputStream(file);
             // size  为字串的长度 ，这里一次性读完
@@ -22,6 +28,11 @@ public class IOHandler {
             str=new String(buffer,"UTF-8");
         } catch (IOException e) {
             return null;
+        }
+        if(str.length()==0) try {
+            throw new EmptyTxtException(path+"文件为空");
+        } catch (EmptyTxtException e) {
+            e.printStackTrace();
         }
         return str;
     }

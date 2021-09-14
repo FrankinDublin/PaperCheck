@@ -26,10 +26,5 @@
             <artifactId>jieba-analysis</artifactId>
             <version>1.0.2</version>
         </dependency>
-        <dependency>
-            <groupId>com.hankcs</groupId>
-            <artifactId>hanlp</artifactId>
-            <version>portable-1.5.4</version>
-        </dependency>
     </dependencies>
 </project>

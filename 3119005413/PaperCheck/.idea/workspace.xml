@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,9 +16,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2093daf-c8f1-4ae9-86df-bbedddf99f7a" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Main_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +55,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="构件" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20229885" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="应用程序.Entry">
+  <component name="RunManager" selected="应用程序.testDemo">
     <configuration name="DivideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DivideTest" />
       <module name="PaperCheck" />
@@ -78,8 +90,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Entry" />
         <item itemvalue="应用程序.testDemo" />
+        <item itemvalue="应用程序.Entry" />
         <item itemvalue="应用程序.DivideTest" />
       </list>
     </recent_temporary>
@@ -100,7 +112,8 @@
       <workItem from="1631447206916" duration="1018000" />
       <workItem from="1631501264422" duration="3000" />
       <workItem from="1631540365713" duration="942000" />
-      <workItem from="1631597923572" duration="3715000" />
+      <workItem from="1631597923572" duration="5226000" />
+      <workItem from="1631611004764" duration="5355000" />
     </task>
     <servers />
   </component>
@@ -120,34 +133,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631601577592">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631618072321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631601577592" />
-    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1631600942021">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631618072321" />
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1631611163804">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631600942021" />
-    <state x="440" y="99" key="#项目结构" timestamp="1631348460348">
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631611163804" />
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1631627191611">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1631348460348" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631601467471">
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1631627191611" />
+    <state x="690" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1631626620692">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631601467471">
+    <state x="690" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631626620692" />
+    <state x="440" y="99" key="#项目结构" timestamp="1631626654371">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631601467471">
+    <state x="440" y="99" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1631626654371" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631628509554">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631601467471">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631628509554">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1631601467471" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631628509554">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631628509554">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1631626900210">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1631626900210" />
+    <state x="789" y="383" key="classpath-attribute-editor" timestamp="1631602189476">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="789" y="383" key="classpath-attribute-editor/0.0.1920.1050@0.0.1920.1050" timestamp="1631602189476" />
     <state width="680" height="1048" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1631601380943">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
