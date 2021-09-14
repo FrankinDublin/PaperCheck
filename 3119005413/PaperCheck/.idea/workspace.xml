@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2093daf-c8f1-4ae9-86df-bbedddf99f7a" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1631447206916" duration="1018000" />
       <workItem from="1631501264422" duration="3000" />
       <workItem from="1631540365713" duration="942000" />
-      <workItem from="1631597923572" duration="986000" />
+      <workItem from="1631597923572" duration="1289000" />
     </task>
     <servers />
   </component>
