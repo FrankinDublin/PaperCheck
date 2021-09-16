@@ -1,4 +1,4 @@
-package Exception;
+package demo.example.Exception;
 
 public class EmptyTxtException extends Exception{
     public EmptyTxtException() {

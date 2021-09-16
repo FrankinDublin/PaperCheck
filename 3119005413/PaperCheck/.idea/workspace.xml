@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Main:jar" />
+      <artifact name="PaperCheck:jar" />
     </artifacts-to-build>
   </component>
   <component name="BranchesTreeState">
@@ -16,17 +16,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2093daf-c8f1-4ae9-86df-bbedddf99f7a" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Main_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/example/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/example/testDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Main_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/PaperCheck_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Main_jar/PaperCheck.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exception/EmptyTxtException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/example/Exception/EmptyTxtException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exception/TxtNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/example/Exception/TxtNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/example/IOHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/example/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exception/EmptyTxtException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exception/TxtNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IOHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +64,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/jprofiler10/bin/jprofiler.exe" />
     <property name="project.structure.last.edited" value="构件" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20229885" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="应用程序.testDemo">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="demo.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.testDemo.NotFoundETest">
     <configuration name="DivideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DivideTest" />
       <module name="PaperCheck" />
@@ -69,28 +85,81 @@
       </method>
     </configuration>
     <configuration name="Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Entry" />
+      <option name="MAIN_CLASS_NAME" value="demo.example.Entry" />
       <module name="PaperCheck" />
-      <option name="PROGRAM_PARAMETERS" value="D:\\测试文本2\\orig.txt D:\\测试文本2\\orig_0.8_del.txt D:\\测试文本2\\result.txt" />
+      <option name="PROGRAM_PARAMETERS" value="D:\\测试文本2\\orig.txt D:\\测试文本2\\orig_0.8_add.txt D:\\测试文本2\\result.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testDemo" />
+    <configuration name="testDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.example.testDemo" />
       <module name="PaperCheck" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDemo.EmptyExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaperCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.example" />
+      <option name="MAIN_CLASS_NAME" value="demo.example.testDemo" />
+      <option name="METHOD_NAME" value="EmptyExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDemo.NotFoundETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaperCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.example" />
+      <option name="MAIN_CLASS_NAME" value="demo.example.testDemo" />
+      <option name="METHOD_NAME" value="NotFoundETest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDemo.pTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaperCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.example" />
+      <option name="MAIN_CLASS_NAME" value="demo.example.testDemo" />
+      <option name="METHOD_NAME" value="pTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.testDemo" />
       <item itemvalue="应用程序.DivideTest" />
       <item itemvalue="应用程序.Entry" />
-      <item itemvalue="应用程序.testDemo" />
+      <item itemvalue="JUnit.testDemo.pTest" />
+      <item itemvalue="JUnit.testDemo.EmptyExceptionTest" />
+      <item itemvalue="JUnit.testDemo.NotFoundETest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.testDemo" />
+        <item itemvalue="JUnit.testDemo.NotFoundETest" />
+        <item itemvalue="JUnit.testDemo.EmptyExceptionTest" />
+        <item itemvalue="JUnit.testDemo.pTest" />
         <item itemvalue="应用程序.Entry" />
         <item itemvalue="应用程序.DivideTest" />
       </list>
@@ -113,7 +182,12 @@
       <workItem from="1631501264422" duration="3000" />
       <workItem from="1631540365713" duration="942000" />
       <workItem from="1631597923572" duration="5226000" />
-      <workItem from="1631611004764" duration="5355000" />
+      <workItem from="1631611004764" duration="5788000" />
+      <workItem from="1631682162988" duration="1167000" />
+      <workItem from="1631706171709" duration="7196000" />
+      <workItem from="1631769196994" duration="232000" />
+      <workItem from="1631769448777" duration="801000" />
+      <workItem from="1631789650807" duration="5506000" />
     </task>
     <servers />
   </component>
@@ -133,10 +207,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631618072321">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631711816310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631618072321" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631711816310" />
     <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1631611163804">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -145,34 +219,62 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1631627191611" />
-    <state x="690" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1631626620692">
+    <state x="690" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1631795839949">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631626620692" />
+    <state x="690" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1631795839949" />
+    <state x="730" y="391" width="459" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631793177758">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="730" y="391" width="459" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1631793177758" />
     <state x="440" y="99" key="#项目结构" timestamp="1631626654371">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1631626654371" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631628509554">
+    <state x="711" y="366" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1631792667944">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631628509554">
+    <state x="711" y="366" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1631792667944" />
+    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1631708128669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631628509554">
+    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1631708128669" />
+    <state width="1860" height="285" key="GridCell.Tab.0.bottom" timestamp="1631794450771">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631628509554">
+    <state width="1860" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1631794450771" />
+    <state width="1860" height="285" key="GridCell.Tab.0.center" timestamp="1631794450770">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1631628509554" />
-    <state x="440" y="99" key="SettingsEditor" timestamp="1631626900210">
+    <state width="1860" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1631794450770" />
+    <state width="1860" height="285" key="GridCell.Tab.0.left" timestamp="1631794450770">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1631626900210" />
+    <state width="1860" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1631794450770" />
+    <state width="1860" height="285" key="GridCell.Tab.0.right" timestamp="1631794450770">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1631794450770" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1631792721761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1631792721761" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1631792721761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1631792721761" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1631792721761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1631792721761" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1631792721761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1631792721761" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1631795845130">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1631795845130" />
     <state x="789" y="383" key="classpath-attribute-editor" timestamp="1631602189476">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -187,6 +289,10 @@
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1631598013637" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PaperCheck$Entry.ic" NAME="Entry Coverage Results" MODIFIED="1631600878848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PaperCheck$Entry.ic" NAME="Entry Coverage Results" MODIFIED="1631707886993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PaperCheck$testDemo_pTest.ic" NAME="testDemo.pTest Coverage Results" MODIFIED="1631793522720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>demo.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PaperCheck$testDemo.ic" NAME="testDemo Coverage Results" MODIFIED="1631793994249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

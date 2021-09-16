@@ -1,3 +1,5 @@
+package demo.example;
+
 import com.huaban.analysis.jieba.JiebaSegmenter;
 import com.huaban.analysis.jieba.SegToken;
 
@@ -11,7 +13,7 @@ public class Processor {
     *  String : 分词结果
     *  int : 长度为2的数组，第一位储存该词组来自原文章的数量，第二位存储该词组来自比较文章的数量
     * */
-    Map<String, int[]> wordsMap;
+    public Map<String, int[]> wordsMap;
     public Processor() {
         wordsMap = new HashMap<>();
     }

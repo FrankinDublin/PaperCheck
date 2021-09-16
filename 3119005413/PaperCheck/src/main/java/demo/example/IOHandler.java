@@ -1,23 +1,22 @@
+package demo.example;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import Exception.TxtNotFoundException;
-import Exception.EmptyTxtException;
+import demo.example.Exception.TxtNotFoundException;
+import demo.example.Exception.EmptyTxtException;
 public class IOHandler {
 
     /*
      * 将文本文档转化为字符串
      * path：文本文档的绝对路径
      * */
-    public static String textToString(String path){
+    public static String textToString(String path) throws TxtNotFoundException,EmptyTxtException{
         String str="";
         File file=new File(path);
-        if (!file.exists()) try {
+        if (!file.exists())
             throw new TxtNotFoundException(path+"路径下文件未找到");
-        } catch (TxtNotFoundException e) {
-            e.printStackTrace();
-        }
         try {
             FileInputStream in=new FileInputStream(file);
             // size  为字串的长度 ，这里一次性读完
@@ -29,11 +28,9 @@ public class IOHandler {
         } catch (IOException e) {
             return null;
         }
-        if(str.length()==0) try {
+        if(str.length()==0)
             throw new EmptyTxtException(path+"文件为空");
-        } catch (EmptyTxtException e) {
-            e.printStackTrace();
-        }
+
         return str;
     }
 
